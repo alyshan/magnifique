@@ -1,0 +1,131 @@
+/*Image Slider*/
+.carousel{
+
+	margin: 0 auto !important;
+}
+
+.carousel-inner{
+	width: 100% !important;
+}
+
+/*Logo*/
+#logo {
+	margin-top: -20px;
+}
+
+/*Menu*/
+.navbar-right{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+}
+.navbar-default{
+	border-bottom: none !important;
+}
+
+/*Headings*/
+h1{
+	font-family: 'Montserrat', sans-serif !important;
+	color:#ec008c !important;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif !important;
+	color:#ec008c !important;
+	text-align: center;
+}
+
+/*Services page styles*/
+.services{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*Map page stlyes*/
+#map{
+	margin: 0 auto;
+}
+.address{
+	margin-top: 20px;
+}
+
+/*Team page styles*/
+.sharon, .jess {
+	width: 50%;
+	height: 50%;
+	margin-left: 140px;
+}
+
+
+/*Mobile view stlyes*/
+@media (min-width: 360px){
+	.carousel{
+		width: 360px!important;
+	}
+`
+	#map{
+		height: 250px;
+		width: 350px;
+	}
+
+	.booking{
+	width: 350px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+}
+
+/*Tablet view styles*/
+@media (min-width: 600px){
+	.carousel{
+		width: 600px!important;
+	}
+
+	#map{
+		height: 450px;
+		width: 550px;
+	}
+
+	.facebook{
+		margin-top: 10px;
+
+	}
+
+	.booking{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+}
+
+/*Desktop view styles*/
+@media (min-width: 1366px){
+	.carousel{
+		width: 980px !important;
+	}
+
+	#map{
+		height: 500px;
+		width: 1200px;
+	}
+
+	.facebook{
+		margin-top: 10px;
+	}
+
+	.booking{
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+}
+
+
